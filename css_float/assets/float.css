@@ -54,7 +54,6 @@ input[type="radio"]:checked {
   background-position: 30px 30px;
 }
 
-
 input[type="submit"]:last-child {
     background: gold;
 }
@@ -73,7 +72,7 @@ h2 + .user_review {
 }
 
 nav {
-    display: inline-block;
+    float: right;
 }
 
 nav ul li {
@@ -124,3 +123,12 @@ label {
   display: block;
 }
 
+header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header img {
+  float: left;
+}
